@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Regular.ttf') format('truetype');
+}
+
+.image-container {
+    background-image: url('/Users/snowwhite/PycharmProjects/Htmlandcss/tolkin.jpg');
+    width: 300px;
+    height: 200px;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+html{
+    font-family: sans-serif;
+}
+body{
+    margin: 0;
+}
+header {
+    background-color: #2b402d;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+    background-color: floralwhite;
+}
+
+ul{
+    display: flex;
+    list-style: disc;
+    --r-list-bullet-color: floralwhite;
+    justify-content: right;
+    background-color: floralwhite;
+    padding: 0;
+    margin: 0;
+}
+li{
+    width: calc(100% / 3);
+}
+li a{
+    background-color: floralwhite;
+    color: darkgrey;
+    width : 100%;
+    height: 5rem;
+    display: block;
+    text-align: center;
+    line-height: 5rem;
+    text-decoration: #fff0f1 1px solid;
+
+
+}
+
+li a:hover{
+    background-color: #27211c;
+}
+
+main {
+    background-color: floralwhite;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section {
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section h2{
+    width: 100%;
+}
+
+article {
+    background-color: floralwhite;
+    /*
+    width: calc(100% / 3); use this function to make 3 images in a row on the website
+     */
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+
+}
+
+figure {
+    float: left;
+    margin: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid lightgray;
+    border-radius: 1rem;
+}
+
+img{
+    border-radius: 8px 8px 0 0;
+    width: 100%;
+    height: auto;
+}
+
+figcaption {
+    padding: 1rem;
+}
+aside {
+    background-color: floralwhite;
+    width: 100%;
+}
+
+footer {
+    background-color: #2b402d;
+    padding: 1rem;
+    text-align: center;
+}
+
+form {
+    background-color: floralwhite;
+    width: 80%;
+    margin: auto;
+    padding: 2rem;
+    display: flex;
+    flex-warp: wrap;
+}
+
+input{
+    display: block;
+    width: 100%;
+    padding: 1rem;
+}
+
+@media screen and (min-width: 769px ){
+    .container {
+        width: 80%;
+    }
+    section {
+        width: 80%;
+
+    }
+    article {
+        width: 50%;
+    }
+    li{
+        width: 10rem;
+    }
+    form{
+        width: 40%;
+    }
+}

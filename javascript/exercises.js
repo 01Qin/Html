@@ -1,6 +1,7 @@
 // variable define:
 // var, let, const
 /*----*/ // to comment out a block of code
+/*
 let x = 6
 console.log(typeof (x));
 //number type: both int and float are numbers in jv
@@ -8,6 +9,7 @@ console.log(typeof (x));
 // none(python) = null (jv) - underlined
 // convert data type into another - tostring(), parseInt(),parseFloat()
 /*x.toString()
+
 
 console.log(typeof (x.toString()));
 console.log(1==1);
@@ -145,6 +147,7 @@ let year = prompt("Please enter a year");
 checkleapyear(year);
 
  */
+/*
 const vowels = ["a", "e", "i", "o", "u"];
 
 function countVowel(str) {
@@ -160,3 +163,45 @@ let string = prompt("give me a string");
 let countNumber = countVowel(string);
 console.log(string);
 console.log("the number of vowels in the string is " + countNumber);
+
+ */
+/*
+isNan("hello") // the function check if it is a number
+    list = [1, 2, 3, 4, 5, 6];
+//use ... to copy a list
+[...list.sort((a, b) => a - b)]
+
+const arrow_function = () => {return 'hello'}
+
+function quadraticSum(a, b) {
+    return a + b;
+}
+
+ */
+/*
+console.log(document.location === window.location);
+const newWindow = window.open("https://uaspath.mmg.fi/login/index.php")
+window.close()
+
+ */
+window.location.href = "https://www.goodreads.com/?ref=nav_hom"
+const currentURL = window.location.href;
+console.log(currentURL);
+
+
+
+//BOM
+//windows object methods:
+/*
+alert("this is a notification!")
+confirm("Are you sure?")
+
+ */
+answer = prompt("type your name")
+console.log(answer)
+
+//setTimeout(): after a certain time, a window method will perform action
+//screen object:
+
+const paragraph= document.getElementById("input");
+paragraph.textContent = "this is the updated texts";
