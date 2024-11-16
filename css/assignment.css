@@ -33,7 +33,7 @@ body{
 header {
     background-color: #2b402d;
     color: white;
-    padding: 1rem;
+    padding: 2rem;
     text-align: center;
     flex-direction: row;
     align-items: center;
@@ -43,9 +43,18 @@ header {
 
 nav {
     background-color: floralwhite;
-
-
 }
+
+nav ul li:first-child {
+            margin-left: 0; /* Remove margin from the first child */
+        }
+
+        nav img {
+            height: 3rem;
+            margin-right: 1rem;
+            margin-left: 1rem;
+            padding-top: 1.2rem;
+        }
 
 ul{
 
@@ -67,12 +76,10 @@ li{
 li a{
     background-color: floralwhite;
     color: darkgrey;
-    width : 100%;
+    width : auto;
     line-height: 5rem;
     display: block;
     text-align: center;
-
-
     text-decoration: none;
     border: 1px solid #fff0f1;
 
@@ -95,7 +102,7 @@ section {
 
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: inherit;
 }
 
 section h2{
@@ -198,7 +205,6 @@ input{
 
         section {
             width: 80%;
-
 
         }
 
