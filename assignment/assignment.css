@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Roboto';
-    src: url('Roboto-Regular.ttf') format('truetype');
+    src: url('assignment/font/Roboto-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'OpenSans';
-    src: url('OpenSans_Condensed-SemiBold.ttf') format('truetype');
+    src: url('assignment/font/OpenSans_Condensed-SemiBold.ttf') format('truetype');
 
 }
 .image-container {
@@ -127,11 +127,12 @@ section {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 7rem;
+    padding: 4rem;
 }
 
 section h2{
     width: 100%;
+
 }
 
 section h3{
@@ -155,6 +156,7 @@ figure {
     border: 1px solid lightgray;
     border-radius: 1rem;
 }
+
 
 img{
     border-radius: 3px 3px 0 0;
