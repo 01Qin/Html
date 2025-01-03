@@ -8,6 +8,7 @@
     src: url('assignment/font/OpenSans_Condensed-SemiBold.ttf') format('truetype');
 
 }
+
 .image-container {
     background-image: url('img/backgroundimg.jpg');
     max-width: 100%;
@@ -20,12 +21,15 @@
     padding: 2rem;
     border-radius: 1rem;
 }
+
 .text{
     width: 45%;
 }
+
 html{
     font-family: 'Roboto', sans-serif;
 }
+
 body{
     font-family: Arial, sans-serif;
     margin: 0;
@@ -43,12 +47,14 @@ header {
 
 }
 
+
+
 nav {
     background-color: floralwhite;
 }
 
 .sticky-nav {
-            position: -ms-device-fixed;
+
             position: sticky;
             top: 0;
             background-color: #333;
@@ -85,6 +91,7 @@ ul{
     margin: 0;
 
 }
+
 li{
     width: calc(100% / 4);
     list-style: none;
@@ -105,7 +112,7 @@ li a{
 
 li a:hover{
     background-color: #27211c;
-    width: auto;
+
 }
 
 main {
@@ -119,7 +126,7 @@ main {
     position: absolute;
     top: 35%;
     left: 50%;
-
+    transform: translate(-50%, -50%);
     text-align: center;
     font-size: 2rem;
 
@@ -140,6 +147,8 @@ section {
 
 section h2{
     width: 100%;
+    text-align: center;
+
 
 }
 
@@ -167,7 +176,7 @@ figure {
 
 
 img{
-    border-radius: 3px 3px 0 0;
+    border-radius: 3px;
     width: 100%;
     height: auto;
 }
@@ -184,9 +193,9 @@ aside {
     display: contents;
     text-align: left;
     align-items: self-start;
-
     margin-bottom: 20px;
 }
+
 .book-details {
     margin-left: 2rem;
     padding: 8rem;
@@ -196,9 +205,7 @@ aside {
     border-bottom-right-radius: 2rem;
     border-bottom-left-radius: 2rem;
     border-bottom-width: medium;
-
-
-    }
+}
 
     footer {
         background-color: #2b402d;
@@ -206,6 +213,7 @@ aside {
         text-align: center;
         color: floralwhite;
         align-items: center;
+
     }
 
     form {
@@ -218,7 +226,7 @@ aside {
     }
 
   input[type="feedback"] {
-      display: flex;
+
     width: 20%;
     padding: 1rem;
     margin-right: 1rem;
@@ -226,14 +234,16 @@ aside {
   }
 
   input[type="submit"] {
-    padding: 0.5rem 0.5rem;
+    padding: 0.5rem;
     background-color: #2b402d;
     color: #fff0f1;
     border: none;
+
+
   }
 
 
-    @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
 
         .container {
             padding: 10px;
