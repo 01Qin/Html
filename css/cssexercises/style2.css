@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Regular.ttf') format('truetype');
+}
+.container{
+    width: 40rem;
+    marign: auto;
+}
+
+html {
+    font-family: Verdana, Arial, Roboto, sans-serif;
+}
+
+header {
+    background-color: darkgrey;
+}
+
+li a {
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: aliceblue;
+}
+
+li a:hover::after {
+    content: " @";
+
+}
+main {
+    background-color: coral;
+}
+
+footer {
+    background-color: aqua;
+}

@@ -16,8 +16,6 @@ let contacts = [
     }
 ];
 
-
-
 let last = contacts.length - 1;
 
 console.log(`${contacts[0].name} / ${contacts[0].phone} / ${contacts[0].email}`);

@@ -1,0 +1,15 @@
+p {
+    color: red;
+}
+
+li>a {
+    color: aqua;
+}
+
+#id-example {
+    color: bisque;
+}
+
+.class-example{
+    color: blue;
+}

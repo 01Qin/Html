@@ -1,0 +1,39 @@
+.container{
+    width: 60%;
+    margin: auto;
+}
+
+header {
+    display: flex;
+}
+
+h1{
+    background-color: #fff1c4;
+    width: 40%;
+
+}
+
+nav{
+    width: 60%;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    background-color: bisque;
+}
+
+li a{
+    background-color: #fdf0ff;
+    color: white;
+    width : 10rem;
+    height: 5rem;
+    display: block;
+    text-align: center;
+    line-height: 5rem;
+}
+
+li a:hover{
+    background-color: aliceblue;
+}
